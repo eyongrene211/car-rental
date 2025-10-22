@@ -2,6 +2,7 @@ import BuyCarCard        from '@/components/BuyCarCard/BuyCarCard'
 import FeaturedComponent from '@/components/FeaturedComponent/FeaturedComponent'
 import FeaturedNewsCard  from '@/components/FeaturedNewsCard/FeaturedNewsCard'
 import FilterComponent   from '@/components/FilterComponent/FilterComponent'
+import FooterComponent   from '@/components/FooterComponent/FooterComponent'
 import HeroComponent     from '@/components/HeroComponent/HeroComponent'
 import NewsComponent     from '@/components/NewsComponent/NewsComponent'
 import ServicesComponent from '@/components/ServicesComponent/ServicesComponent'
@@ -20,7 +21,8 @@ const page = () => {
       {/* <BuyCarCard /> */}
       {/* <FeaturedNewsCard/> */}
       <FeaturedComponent />
-      <NewsComponent/>
+      <NewsComponent />
+      <FooterComponent/>
     </div>
   )
 }
